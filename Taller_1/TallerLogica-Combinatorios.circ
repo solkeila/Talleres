@@ -170,12 +170,12 @@
     <comp loc="(660,400)" name="sumador_flags"/>
     <comp loc="(680,720)" name="inversor_4"/>
     <comp loc="(940,680)" name="sumador_flags"/>
-    <wire from="(1030,120)" to="(1030,700)"/>
-    <wire from="(1030,120)" to="(1180,120)"/>
-    <wire from="(1040,190)" to="(1040,720)"/>
-    <wire from="(1040,190)" to="(1180,190)"/>
-    <wire from="(1050,260)" to="(1050,740)"/>
-    <wire from="(1050,260)" to="(1180,260)"/>
+    <wire from="(1030,260)" to="(1030,700)"/>
+    <wire from="(1030,260)" to="(1180,260)"/>
+    <wire from="(1040,120)" to="(1040,720)"/>
+    <wire from="(1040,120)" to="(1180,120)"/>
+    <wire from="(1050,190)" to="(1050,740)"/>
+    <wire from="(1050,190)" to="(1180,190)"/>
     <wire from="(1070,320)" to="(1070,760)"/>
     <wire from="(1070,320)" to="(1180,320)"/>
     <wire from="(1070,890)" to="(1070,920)"/>
@@ -321,15 +321,15 @@
     <wire from="(660,440)" to="(690,440)"/>
     <wire from="(660,460)" to="(700,460)"/>
     <wire from="(660,480)" to="(710,480)"/>
-    <wire from="(680,110)" to="(1180,110)"/>
-    <wire from="(680,110)" to="(680,420)"/>
+    <wire from="(680,250)" to="(1180,250)"/>
+    <wire from="(680,250)" to="(680,420)"/>
     <wire from="(680,720)" to="(720,720)"/>
-    <wire from="(690,180)" to="(1180,180)"/>
-    <wire from="(690,180)" to="(690,440)"/>
+    <wire from="(690,110)" to="(1180,110)"/>
+    <wire from="(690,110)" to="(690,440)"/>
     <wire from="(690,520)" to="(690,700)"/>
     <wire from="(690,700)" to="(720,700)"/>
-    <wire from="(700,250)" to="(1180,250)"/>
-    <wire from="(700,250)" to="(700,460)"/>
+    <wire from="(700,180)" to="(1180,180)"/>
+    <wire from="(700,180)" to="(700,460)"/>
     <wire from="(710,310)" to="(1180,310)"/>
     <wire from="(710,310)" to="(710,480)"/>
     <wire from="(720,720)" to="(730,720)"/>
@@ -797,7 +797,7 @@
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(1030,120)" name="AND Gate"/>
+    <comp lib="1" loc="(1030,20)" name="AND Gate"/>
     <comp lib="1" loc="(1040,280)" name="NOT Gate"/>
     <comp lib="1" loc="(1100,260)" name="AND Gate"/>
     <comp lib="1" loc="(300,40)" name="XOR Gate"/>
@@ -813,7 +813,9 @@
     <comp loc="(430,600)" name="sumador_simple"/>
     <comp loc="(490,200)" name="sumador_4"/>
     <comp loc="(770,260)" name="comparador_cero"/>
-    <wire from="(1030,120)" to="(1090,120)"/>
+    <wire from="(1030,20)" to="(1040,20)"/>
+    <wire from="(1040,120)" to="(1090,120)"/>
+    <wire from="(1040,20)" to="(1040,120)"/>
     <wire from="(1040,280)" to="(1050,280)"/>
     <wire from="(110,180)" to="(130,180)"/>
     <wire from="(110,280)" to="(130,280)"/>
@@ -856,7 +858,7 @@
     <wire from="(430,420)" to="(710,420)"/>
     <wire from="(430,520)" to="(680,520)"/>
     <wire from="(430,620)" to="(700,620)"/>
-    <wire from="(460,100)" to="(980,100)"/>
+    <wire from="(460,100)" to="(960,100)"/>
     <wire from="(460,40)" to="(460,100)"/>
     <wire from="(490,200)" to="(550,200)"/>
     <wire from="(490,220)" to="(490,320)"/>
@@ -895,7 +897,11 @@
     <wire from="(900,280)" to="(900,300)"/>
     <wire from="(910,180)" to="(910,240)"/>
     <wire from="(910,240)" to="(1050,240)"/>
-    <wire from="(920,140)" to="(980,140)"/>
+    <wire from="(920,140)" to="(970,140)"/>
+    <wire from="(960,0)" to="(960,100)"/>
+    <wire from="(960,0)" to="(980,0)"/>
+    <wire from="(970,40)" to="(970,140)"/>
+    <wire from="(970,40)" to="(980,40)"/>
   </circuit>
   <circuit name="incrementador_4">
     <a name="appearance" val="logisim_evolution"/>
