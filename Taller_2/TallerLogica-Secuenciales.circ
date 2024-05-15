@@ -13,7 +13,7 @@
       <a name="select" val="2"/>
     </tool>
   </lib>
-  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Arithmetic" name="3"/> 
   <lib desc="#Memory" name="4"/>
   <lib desc="#I/O" name="5"/>
   <lib desc="#TTL" name="6"/>
