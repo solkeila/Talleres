@@ -224,6 +224,10 @@
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(240,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="w"/>
+    </comp>
     <comp lib="0" loc="(370,130)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="clk"/>
@@ -240,10 +244,6 @@
     <comp lib="0" loc="(410,260)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(470,630)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="label" val="w"/>
     </comp>
     <comp loc="(730,160)" name="registro_salida_restringida"/>
     <comp loc="(770,310)" name="registro_salida_restringida"/>
@@ -263,6 +263,9 @@
     <wire from="(1070,330)" to="(1090,330)"/>
     <wire from="(1100,220)" to="(1120,220)"/>
     <wire from="(1110,290)" to="(1130,290)"/>
+    <wire from="(240,300)" to="(250,300)"/>
+    <wire from="(250,300)" to="(250,630)"/>
+    <wire from="(250,630)" to="(510,630)"/>
     <wire from="(370,130)" to="(480,130)"/>
     <wire from="(370,260)" to="(410,260)"/>
     <wire from="(380,330)" to="(410,330)"/>
@@ -290,7 +293,6 @@
     <wire from="(460,590)" to="(750,590)"/>
     <wire from="(470,240)" to="(470,460)"/>
     <wire from="(470,460)" to="(660,460)"/>
-    <wire from="(470,630)" to="(510,630)"/>
     <wire from="(480,130)" to="(480,160)"/>
     <wire from="(480,160)" to="(510,160)"/>
     <wire from="(480,230)" to="(480,330)"/>
